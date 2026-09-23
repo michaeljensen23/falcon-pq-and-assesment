@@ -1,0 +1,1 @@
+import{i as e,t}from"./react-SIfiwpqq.js";import{t as n}from"./jsx-runtime-0vZSBttN.js";import{t as r}from"./document-D3d9A4Ce.js";import{t as i}from"./demo-storage-B6qDvbr0.js";var a=e(t()),o=n();function s(){let[e]=(0,a.useState)(()=>i());return(0,o.jsx)(r,{pq:e,meetingHref:`/demo`,preparedBy:`Michael Jensen, CFP®`})}export{s as component};

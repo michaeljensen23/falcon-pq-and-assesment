@@ -1,0 +1,35 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Falcon Discovery",
+      "hasCanvas": false,
+      "bodyTextLen": 34,
+      "bodyTextHash": "2596501cb422a74b7ea08684a1caec8767e228523f88cad37ab6e7d263df3d80",
+      "bodyTextPrefix": "Falcon Wealth PLANNING MADE SIMPLE",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Falcon Discovery",
+      "hasCanvas": false,
+      "bodyTextLen": 34,
+      "bodyTextHash": "2596501cb422a74b7ea08684a1caec8767e228523f88cad37ab6e7d263df3d80",
+      "bodyTextPrefix": "Falcon Wealth PLANNING MADE SIMPLE",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}

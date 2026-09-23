@@ -1,0 +1,35 @@
+{
+  "url": "http://127.0.0.1:8080/demo/assessment",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Falcon Discovery",
+      "hasCanvas": false,
+      "bodyTextLen": 12307,
+      "bodyTextHash": "bd2f6c6fbaa6b6a1dc64d5d092e17fe8a1f985c52feac7af51e1ebeb2f5b89e8",
+      "bodyTextPrefix": "← Back to meeting Germain Hammarth · Marguerite Bonous-Hammarth ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/assessment.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Falcon Discovery",
+      "hasCanvas": false,
+      "bodyTextLen": 12261,
+      "bodyTextHash": "2216f84e1130b59bd6259398f8e92fc75ecad62033aaac41814e0447a67abe24",
+      "bodyTextPrefix": "← Back to meeting Print / PDF Falcon Wealth PLANNING MADE SIMPLE",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/assessment-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "verdictFile": "/workspace/screenshots/assessment.json"
+}

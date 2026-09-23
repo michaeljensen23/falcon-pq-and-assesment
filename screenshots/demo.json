@@ -1,0 +1,35 @@
+{
+  "url": "http://127.0.0.1:8080/demo",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Falcon Discovery",
+      "hasCanvas": false,
+      "bodyTextLen": 200,
+      "bodyTextHash": "aed1ed122a7ab10fc4d35bea4b93810263fb9031e328ff9e04f6572b6e471189",
+      "bodyTextPrefix": "Falcon Discovery PLANNING MADE SIMPLE Advisor sign in Use a Goog",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/demo.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Falcon Discovery",
+      "hasCanvas": false,
+      "bodyTextLen": 200,
+      "bodyTextHash": "aed1ed122a7ab10fc4d35bea4b93810263fb9031e328ff9e04f6572b6e471189",
+      "bodyTextPrefix": "Falcon Discovery PLANNING MADE SIMPLE Advisor sign in Use a Goog",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/demo-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "verdictFile": "/workspace/screenshots/demo.json"
+}

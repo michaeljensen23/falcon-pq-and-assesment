@@ -1,0 +1,380 @@
+/** Blank capture sheet — same labels Grok maps into the 14 PQ sections. */
+export const NOTES_TEMPLATE = `FALCON WEALTH PLANNING — Discovery meeting notes
+Fill what you heard. Write "not discussed" or leave blank. Do not guess.
+Money: annual, digits only when you can (250000). If they said monthly, write "3600/month = 43200 annual".
+Dates: YYYY-MM-DD. Mortgages stay on the property. Unknown beneficiaries: write "unknown".
+
+------------------------------------------------------------
+1. MEETING OPEN
+Ask: Who is in the room? Who referred them? Which statements did they bring?
+
+Advisor:
+Paraplanner:
+Date of 2nd meeting:
+Referred by:
+In the room:
+
+Documents received (yes/no):
+- Federal tax returns (last 2 years):
+- Investment / brokerage statements:
+- Retirement plan statements (401k / IRA):
+- Social Security statements:
+- Pension / annuity statements:
+- Life & disability insurance policies:
+- Long-term care policies:
+- Estate documents (will, trust, POAs):
+- Mortgage / HELOC statements:
+- Pay stubs or K-1s:
+Still outstanding:
+
+------------------------------------------------------------
+2. FAMILY
+Ask: Walk the household — names they use, ages, address, children, grandchildren.
+
+Client first name:
+Client nickname:
+Client last name:
+Client date of birth:
+Client marital status:          (Married / Single / Widowed / Divorced / Domestic partner)
+Years married:
+
+Spouse first name:
+Spouse nickname:
+Spouse last name:
+Spouse date of birth:
+
+Residence street:
+City:
+State:
+Zip:
+Country: USA
+
+Children (name, age):
+1)
+2)
+3)
+
+Total grandchildren:
+Grandchildren notes:
+Family notes (health, marriage story, who they support, where they want to live):
+
+------------------------------------------------------------
+3. OCCUPATION
+Ask: Job title, employer (last if retired), years in the role, intended retirement age.
+
+Client job title:
+Client employer:
+Client years at job:
+Client retirement age (actual or planned):
+
+Spouse job title:
+Spouse employer:
+Spouse years at job:
+Spouse retirement age (actual or planned):
+
+------------------------------------------------------------
+4. ADVISORS
+Ask: Who is the attorney, CPA, insurance agent? Preference (they like them) or commitment (they will not switch)?
+
+Attorney name:
+Attorney firm:
+Attorney notes:
+Attorney preference (yes/no):
+Attorney commitment (yes/no):
+
+Accountant name:
+Accountant firm:
+Accountant notes:
+Accountant preference (yes/no):
+Accountant commitment (yes/no):
+
+Insurance agent name:
+Insurance agent firm:
+Insurance agent notes:
+Insurance preference (yes/no):
+Insurance commitment (yes/no):
+
+Other advisor name:
+Other advisor firm:
+Other advisor notes:
+
+------------------------------------------------------------
+5. REAL ESTATE
+Ask: Homes and rentals — value, mortgage, payment, income, year bought, how titled.
+Put the mortgage on this property. Do not list it again under Other liabilities.
+
+Property 1:
+  Description:                  (e.g. Primary residence — city)
+  Market value:
+  Liability / mortgage balance:
+  Rate / term:
+  Payment (monthly, then annual):
+  Rental income EBT (annual):
+  Year acquired:
+  Purchase price:
+  Improvements / additions:
+  Ownership:                    (Joint / Trust / Client / Spouse / LLC)
+
+Property 2:
+  Description:
+  Market value:
+  Liability / mortgage balance:
+  Rate / term:
+  Payment:
+  Rental income EBT:
+  Year acquired:
+  Purchase price:
+  Improvements / additions:
+  Ownership:
+
+------------------------------------------------------------
+6. TAX-DEFERRED (IRA / 401k / 403b / pension / annuity)
+Ask: Custodian, balance, yearly additions, company match, type, owner, beneficiary, fee.
+
+Types: Traditional IRA | Rollover IRA | 401(k) | 403(b) | 457 | SEP/SIMPLE | Pension | Annuity
+
+Account 1:
+  Custodian:
+  Market value:
+  Annual additions:
+  Company match:
+  Type:
+  Owner:
+  Beneficiary:
+  Fee %:
+
+Account 2:
+  Custodian:
+  Market value:
+  Annual additions:
+  Company match:
+  Type:
+  Owner:
+  Beneficiary:
+  Fee %:
+
+Account 3:
+  Custodian:
+  Market value:
+  Annual additions:
+  Company match:
+  Type:
+  Owner:
+  Beneficiary:
+  Fee %:
+
+------------------------------------------------------------
+7. ROTH & AFTER-TAX
+Ask: Roth IRA, Roth 401(k), after-tax 401(k), HSA. Note the five-year clock. "None" is a finding.
+
+Types: Roth IRA | Roth 401(k) | After-tax 401(k) | HSA
+
+Account 1:
+  Custodian:
+  Market value:
+  Annual additions:
+  Employer contrib / 5-year clock:
+  Type:
+  Owner:
+  Beneficiary:
+  Fee %:
+
+If none: write "No Roth accounts" and any backdoor / conversion history.
+
+------------------------------------------------------------
+8. BROKERAGE, STOCKS, ETF, NON-QUALIFIED ANNUITY, CRYPTO
+Ask: Non-qualified investments — cost basis, owner, beneficiary.
+
+Types: Brokerage | Individual stocks | ETF / mutual fund | Non-qualified annuity | Crypto | Other
+
+Account 1:
+  Custodian:
+  Market value:
+  Annual additions:
+  Cost basis:
+  Type:
+  Owner:
+  Beneficiary:
+  Fee %:
+
+Account 2:
+  Custodian:
+  Market value:
+  Annual additions:
+  Cost basis:
+  Type:
+  Owner:
+  Beneficiary:
+  Fee %:
+
+------------------------------------------------------------
+9. CASH & CDs
+Ask: Emergency reserve, bank, money market, CDs, T-bills. Who owns them.
+
+Account 1:
+  Description:
+  Market value:
+  Interest rate:
+  Owner:
+
+Account 2:
+  Description:
+  Market value:
+  Interest rate:
+  Owner:
+
+Account 3:
+  Description:
+  Market value:
+  Interest rate:
+  Owner:
+
+------------------------------------------------------------
+10. BUSINESS & OTHER ASSETS
+Ask: Business interests, collectibles, private notes. List business cash here, not under Cash.
+If none, write "None".
+
+Asset 1:
+  Description:
+  Market value:
+  Cost basis:
+  Owner:
+
+------------------------------------------------------------
+11. OTHER LIABILITIES
+Ask: Notes, HELOC (if not already on a property), margin, student loans, cars. Not mortgages already listed.
+If none, write "None".
+
+Liability 1:
+  Description:
+  Amount:
+  Interest rate:
+  Term / payment:
+
+------------------------------------------------------------
+12. INSURANCE
+Ask: Life, LTC, disability, umbrella, homeowners. Company, benefit, who is insured, premium, cash value, beneficiary.
+
+Types: Term life | Whole life / UL | Disability | Long-term care | Homeowners / auto | Umbrella | Other
+
+Policy 1:
+  Company:
+  Type:
+  Death / daily benefit:
+  Insured:
+  Owner:
+  Policy date:
+  Annual premium:
+  Cash value:
+  Beneficiary:
+
+Policy 2:
+  Company:
+  Type:
+  Death / daily benefit:
+  Insured:
+  Owner:
+  Policy date:
+  Annual premium:
+  Cash value:
+  Beneficiary:
+
+Has umbrella (yes/no):
+Has long-term care policy (yes/no):
+
+------------------------------------------------------------
+13. INCOME & TAX
+Ask: Wages, Social Security, pensions — current and at retirement. Annual spending. Filing status and last return.
+
+Income types: Wages | Social Security | Pension | Rental | VA | Annuity | Business | Other
+All amounts ANNUAL.
+
+Income 1:
+  Description:
+  Current annual amount:
+  Amount at retirement:
+  Type:
+  Start date:
+  Owner:
+  Survivor / COLA:
+
+Income 2:
+  Description:
+  Current annual amount:
+  Amount at retirement:
+  Type:
+  Start date:
+  Owner:
+  Survivor / COLA:
+
+Income 3:
+  Description:
+  Current annual amount:
+  Amount at retirement:
+  Type:
+  Start date:
+  Owner:
+  Survivor / COLA:
+
+Annual household expenses:
+Filing status:                  (Married Filing Jointly / Married Filing Separately / Single / Head of Household)
+Taxable income (last return):
+Itemized deductions:
+Federal tax:
+State tax:
+FICA tax:
+Capital-loss carryforward:
+Tax-deferred contributions this year:
+Retirement benefit notes (survivor options, COLA, claiming age):
+
+------------------------------------------------------------
+14. GOALS, CONCERNS & ESTATE
+Ask: What does a great next decade look like? What keeps them up at night? Which estate docs exist?
+
+Goals:
+Concerns:
+
+Estate documents on file (yes/no):
+- Will:
+- Living trust:
+- Financial durable POA:
+- Medical POA:
+- HIPAA release:
+- Quality of life directive:
+Year drafted / last reviewed:
+`;
+
+/**
+ * Paste this in front of a meeting script or transcript. The output is a filled
+ * notes document ready to upload (or paste) into Files → Meeting notes.
+ */
+export const SCRIPT_PROMPT = `You are a CFP® paraplanner at Falcon Wealth Planning.
+
+Task: Turn the meeting script, transcript, or handwritten notes below into a filled Falcon Discovery meeting-notes document. That document will be uploaded to fill the 14-section personal financial questionnaire. Accuracy beats completeness.
+
+Return ONLY the filled document. No preamble, no markdown fences, no commentary.
+
+How to write it
+- Use the exact section headers and field labels in the template below. Keep every heading even if the answer is "not discussed".
+- Extract only facts the source states or clearly implies (e.g. "both retired" → retirement ages if given, otherwise leave blank). Do not invent names, ages, balances, dates, beneficiaries, or document status.
+- If a number is approximate ("about two million"), write ~2000000 and add "(approximate)" on the line.
+- Money is annual. If they quoted monthly, convert and show both: 3600/month = 43200 annual.
+- Dates as YYYY-MM-DD when you can parse them; otherwise keep their words.
+- Nicknames, legal names, and "they call it X" — keep both.
+- Mortgages, HELOCs tied to a property, rate, payment, and rental income belong on that real-estate row. Do not repeat them under Other liabilities.
+- Tax-deferred: Traditional IRA, Rollover IRA, 401(k), 403(b), 457, SEP/SIMPLE, Pension, Annuity.
+- Roth & after-tax: Roth IRA, Roth 401(k), After-tax 401(k), HSA. "We don't have a Roth" → write "No Roth accounts".
+- Taxable: Brokerage, Individual stocks, ETF / mutual fund, Non-qualified annuity, Crypto, Other.
+- Income type: Wages, Social Security, Pension, Rental, VA, Annuity, Business, Other.
+- Advisor preference = they like this person. Commitment = they will not switch. Only mark yes if the source says so.
+- Documents: yes only if they brought it, already sent it, or you can see it. Otherwise no.
+- Estate docs: yes/no only when stated. Unknown → leave blank.
+- Quote goals and concerns in the client's language, tightened — not rewritten as marketing.
+- End with a short "Still needed" list of missing statements or facts.
+
+Template to fill (copy the structure, replace the blanks):
+
+${NOTES_TEMPLATE}
+
+--- MEETING SCRIPT OR TRANSCRIPT ---
+`;

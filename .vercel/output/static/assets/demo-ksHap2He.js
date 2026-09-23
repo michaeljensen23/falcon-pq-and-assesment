@@ -1,0 +1,1 @@
+import{t as e}from"./jsx-runtime-0vZSBttN.js";import{a as t}from"./index-twvYxbCq.js";import{t as n}from"./auth-gate-Cx_Fh_A6.js";var r=e();function i(){return(0,r.jsx)(n,{children:(0,r.jsx)(t,{})})}export{i as component};

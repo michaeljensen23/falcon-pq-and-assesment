@@ -1,0 +1,37 @@
+{
+  "url": "http://127.0.0.1:8081/demo",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Falcon Discovery",
+      "hasCanvas": false,
+      "bodyTextLen": 1381,
+      "bodyTextHash": "4579a6484994bb310067bfeb26ab7a2ab853ad58c934a6ec43657ea180c76c80",
+      "bodyTextPrefix": "Falcon Wealth PLANNING MADE SIMPLE Hammarth, Germain & Marguerit",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/built-demo.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Falcon Discovery",
+      "hasCanvas": false,
+      "bodyTextLen": 775,
+      "bodyTextHash": "11b890085aff4c14fe5b0b23098b8cf247b5e4dfced44f65daeb5fcba92f7032",
+      "bodyTextPrefix": "Hammarth, Germain & Marguerite Sample — this browser only · 91% ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/built-demo-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "verdictFile": "/workspace/screenshots/built-demo.json",
+  "divergesFromBaseline": false,
+  "baselineReasons": []
+}

@@ -1,0 +1,1 @@
+var e=`falconwp.com`;function t(t){if(!t)return!1;let n=t.trim().toLowerCase(),r=n.lastIndexOf(`@`);return r<1?!1:n.slice(r+1)===e}export{t as n,e as t};
